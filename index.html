@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glam Nails - Nail Stylist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+              
+
+            <div class="logo">
+                <img src="/images/portfolio file.jpg">
+                Nails By Ness
+              </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Replace the existing hero section with this: -->
+        <section id="home" class="hero">
+            <div class="video-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="/images/nailsbyness.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Elevate Your Style</h1>
+                <p>Experience the art of nail design</p>
+                <div id="booksy-widget"></div>
+                <script type="text/javascript" src="https://booksy.com/widget/code.js?id=1379816&country=us&lang=en"></script>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Manicure</h3>
+                    <p>Pamper your hands with our luxurious manicure treatments.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pedicure</h3>
+                    <p>Treat your feet to a relaxing and rejuvenating pedicure experience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Nail Art</h3>
+                    <p>Express your creativity with our stunning nail art designs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Nail Design Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item glitter"></div>
+                <div class="gallery-item glitter"></div>
+                <div class="gallery-item glitter"></div>
+                <div class="gallery-item glitter"></div>
+                <div class="gallery-item glitter"></div>
+                <div class="gallery-item glitter"></div>
+            </div>
+        </section>
+
+        <section id="booking">
+            <h2>Book Your Appointment</h2>
+            <button class="cta-button" id="scroll-to-home">Book Appointment</button>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Glam Nails</h3>
+                <p>Elevating your style, one nail at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>123 Nail Street, Beauty City</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@glamnails.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("scroll-to-home").addEventListener("click", function() {
+            document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
